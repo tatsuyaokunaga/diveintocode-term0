@@ -1,5 +1,4 @@
-import csv
-#csvモジュールをインポートする
+import csv #csvモジュールをインポートする
 
 f = open('KOUKYOU.csv', 'r') #ファイルオブジェクトとしてファイルを開く
 dataReader = csv.reader(f) #与えられた csvfile 内の行を反復処理するような reader オブジェクトを返す
