@@ -15,8 +15,9 @@ def find_person(want_to_find_person):
     for key in course_dict.keys():
         if want_to_find_person <= course_dict[key]:
             print(key+'に'+str(want_to_find_person)+'は在籍しています。')
-        elif len(want_to_find_person & course_dict[key])>0:
-            print(key+'に'+str(want_to_find_person&course_dict[key])+'のみ在籍しています。')
+        elif len(want_to_find_person & course_dict[key]) > 0:
+            print(key+'に'+str(want_to_find_person & course_dict[key])
+                  + 'のみ在籍しています。')
         else:
             print(key+'に'+str(want_to_find_person)+'は在籍していません。')
 
