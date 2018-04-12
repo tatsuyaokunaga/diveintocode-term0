@@ -551,8 +551,7 @@ B^{-1}AB＝
  1 & -1 & 1 \\
  0 & 1 & 1 \\
  2 & 1 & -1\\
- \end{pmatrix}\\
- であるから\\
+ \end{pmatrix}であるから\\
  B^{t}B =
  \begin{pmatrix}
  1 & -1 & 1 \\
@@ -564,24 +563,20 @@ B^{-1}AB＝
  -1 & 1 & 1 \\
  1 & 1 & -1\\
  \end{pmatrix}\\
-
 =
  \begin{pmatrix}
   3 & 0 & 0 \\
   0 & 2 & 0 \\
   0 & 0 & 6\\
-  \end{pmatrix}-(2)
+  \end{pmatrix}
  \\
- よって(2)が単位行列になるには、Bの各列に各々\frac{1}{\sqrt{3}},\frac{1}{\sqrt{2}},\frac{1}{\sqrt{6}}を掛ければ\\
- B^{t}B=Eとなり\\
- B^{t}＝B^{-1}であるのでBは直交行列。ゆえに\\
+ よってB^{t}B=EとなるようにBの各列に各々\frac{1}{\sqrt{3}},\frac{1}{\sqrt{2}},\frac{1}{\sqrt{6}}を掛けると\\
  B=
 \frac{1}{\sqrt{6}}
  \begin{pmatrix}
   \sqrt{2} & 0 & 2 \\
   -\sqrt{2} & \sqrt{3} & 1 \\
   \sqrt{2} & \sqrt{3} & -1\\
-  \end{pmatrix}
- \\
-$$
- がもとめるBである。
+  \end{pmatrix}-(2)\\
+
+その結果、 B^{t}＝B^{-1}をみたすためBは直交行列。ゆえに(2)がもとめるBである。
