@@ -1,7 +1,7 @@
 import webbrowser
 
 class School():
-    def __init__(self,name,address,number_of_students,founding_year,\  #コンストラクタでインスタンス変数を定義
+    def __init__(self,name,address,number_of_students,founding_year, #コンストラクタでインスタンス変数を定義
            introduction_video_url,introduction_statement):
         self.name = name
         self.address = address
